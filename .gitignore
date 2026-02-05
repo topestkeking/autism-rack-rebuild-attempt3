@@ -1,0 +1,15 @@
+# JUCE Build Artefacts
+/VocalAggressorRack/VocalAggressorRack/Builds/LinuxMakefile/
+/VocalAggressorRack/VocalAggressorRack/Builds/MacOSX/
+/VocalAggressorRack/VocalAggressorRack/Builds/VisualStudio2019/
+/VocalAggressorRack/VocalAggressorRack/Builds/VisualStudio2026/
+
+# General C++ build files
+*.o
+*.obj
+*.log
+*.so
+*.a
+*.vst3
+intermediate/
+build/

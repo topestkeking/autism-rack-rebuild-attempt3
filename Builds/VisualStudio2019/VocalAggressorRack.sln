@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 16
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VocalAggressorRack - Standalone Plugin", "VocalAggressorRack_StandalonePlugin.vcxproj", "{CEEE70B1-612D-CFB9-E509-C3A0554CD423}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2F855E7F-1662-BAC3-6C20-E826B6091422} = {2F855E7F-1662-BAC3-6C20-E826B6091422}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VocalAggressorRack - VST3", "VocalAggressorRack_VST3.vcxproj", "{124F2578-1A76-51D4-11DC-0FCF45D24AB2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2F855E7F-1662-BAC3-6C20-E826B6091422} = {2F855E7F-1662-BAC3-6C20-E826B6091422}
+		{EFB8D6E5-7837-2AB5-1F75-CA9467A6C20F} = {EFB8D6E5-7837-2AB5-1F75-CA9467A6C20F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VocalAggressorRack - Shared Code", "VocalAggressorRack_SharedCode.vcxproj", "{2F855E7F-1662-BAC3-6C20-E826B6091422}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VocalAggressorRack - VST3 Manifest Helper", "VocalAggressorRack_VST3ManifestHelper.vcxproj", "{EFB8D6E5-7837-2AB5-1F75-CA9467A6C20F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{124F2578-1A76-51D4-11DC-0FCF45D24AB2}.Debug|x64.ActiveCfg = Debug|x64
+		{124F2578-1A76-51D4-11DC-0FCF45D24AB2}.Debug|x64.Build.0 = Debug|x64
+		{124F2578-1A76-51D4-11DC-0FCF45D24AB2}.Release|x64.ActiveCfg = Release|x64
+		{124F2578-1A76-51D4-11DC-0FCF45D24AB2}.Release|x64.Build.0 = Release|x64
+		{CEEE70B1-612D-CFB9-E509-C3A0554CD423}.Debug|x64.ActiveCfg = Debug|x64
+		{CEEE70B1-612D-CFB9-E509-C3A0554CD423}.Debug|x64.Build.0 = Debug|x64
+		{CEEE70B1-612D-CFB9-E509-C3A0554CD423}.Release|x64.ActiveCfg = Release|x64
+		{CEEE70B1-612D-CFB9-E509-C3A0554CD423}.Release|x64.Build.0 = Release|x64
+		{2F855E7F-1662-BAC3-6C20-E826B6091422}.Debug|x64.ActiveCfg = Debug|x64
+		{2F855E7F-1662-BAC3-6C20-E826B6091422}.Debug|x64.Build.0 = Debug|x64
+		{2F855E7F-1662-BAC3-6C20-E826B6091422}.Release|x64.ActiveCfg = Release|x64
+		{2F855E7F-1662-BAC3-6C20-E826B6091422}.Release|x64.Build.0 = Release|x64
+		{EFB8D6E5-7837-2AB5-1F75-CA9467A6C20F}.Debug|x64.ActiveCfg = Debug|x64
+		{EFB8D6E5-7837-2AB5-1F75-CA9467A6C20F}.Debug|x64.Build.0 = Debug|x64
+		{EFB8D6E5-7837-2AB5-1F75-CA9467A6C20F}.Release|x64.ActiveCfg = Release|x64
+		{EFB8D6E5-7837-2AB5-1F75-CA9467A6C20F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
